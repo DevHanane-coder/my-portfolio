@@ -175,3 +175,50 @@ h2{
   text-align:center;
   color:#cfcfcf;
 }
+/* MOBILE */
+@media (max-width: 768px){
+
+  nav{
+    flex-direction:column;
+    gap:15px;
+    padding:15px;
+  }
+
+  .links{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .links a{
+    margin-left:0;
+  }
+
+  header{
+    padding:80px 20px;
+  }
+
+  header h1{
+    font-size:2.2rem;
+  }
+
+  header p{
+    font-size:1rem;
+  }
+
+  h2{
+    font-size:1.8rem;
+  }
+
+  .about,
+  .projects,
+  .contact{
+    padding:60px 15px;
+  }
+
+  .project{
+    min-height:auto;
+  }
+
+}
